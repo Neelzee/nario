@@ -18,8 +18,6 @@ fn main() {
                 PlayerControllerPlugin,
             )
         )
-        //.add_systems(Startup, (setup_graphics, setup_physics))
-        //.add_systems(Update, print_ball_altitude)
         .run();
 }
 
